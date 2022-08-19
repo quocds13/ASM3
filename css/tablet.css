@@ -3,7 +3,10 @@
     .navbar-item:nth-child(3){
         display: none;
     }
-
+    .navbar-item:nth-child(2){
+      border-right: 1px solid rgba(166, 160, 160, 0.5);
+      margin-right: 50px;
+  }
     /* --JOB-INFO */
     #job-info .container {
         display: grid;
